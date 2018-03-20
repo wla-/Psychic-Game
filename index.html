@@ -3,39 +3,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Psychic Game William Alt</title>
+  <title>The Psychic</title>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
-  
 
 </head>
 
-<!-- Starting Point -->
 <body>
 
-  <div id="title">
+  <!-- title -->
   <h1>The Psychic Game</h1>
-  <br>
-  <p>Guess what letter I am thinking of</p>
-  </div>
 
-  
-  <div id="game">
+  <p>Guess what letter I'm thinking of</p>
+
+  <!-- win counter. initially shows 0  -->
+  <p>Wins: <span id="wins">0</span></p>
+
+  <!-- loss counter. initially shows 0 -->
+  <p>Losses: <span id="losses">0</span></p>
+
+  <!-- track the number of guessesLeft. initially blank. -->
+  <p>Guesses Left: <span id="guesses-left"></span></p>
+
+  <!-- track the guessesSoFar. initially blank. -->
+  <p>Your Guesses so far: <span id="guesses-so-far"></span></p>
+
+  <!-- reference to our javascript file with the game logic -->
   <script type="text/javascript" src="assets/javascript/game.js"></script>
- 
-  <p>Wins:</p>
-  <p>Losses:</p>
-  <p>Guesses Left:</p>
-  <p>Your Guesses So Far:</p>
-  </div>
-
-<!--  -->
-
-
 
 </body>
 </html>
